@@ -4,5 +4,5 @@ Welcome to the repository for my YouTube [Channel](https://www.youtube.com/@alph
 
 ## Video | Resources [> arabic <]
 
-[Video](https://youtu.be/4IDLCtEPtN8)  
+[Video](https://youtu.be/4IDLCtEPtN8)  --> [Readme](https://github.com/bennamrouche/alphaben-youtube/blob/master/Makefile/readme.md)
 
