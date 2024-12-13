@@ -10,8 +10,21 @@
 #include <unistd.h>
 #include <string.h>
 
+#include <fcntl.h>
+
 int main()
 {
-    
-    return 0;
+
+    int fd = open("file.txt",O_WRONLY | O_CREAT | O_APPEND,0700);
+
+    if(fd == -1)
+    {
+                perror("Error: ");
+                exit(-1);
+    }
+
+    else
+        printf("file open successfully");
+
+    dprintf(fd,"test test\n");
 }
