@@ -1,0 +1,7 @@
+// array 
+int sum(int *arr,int len);
+int   max(int *arr,int len);
+float avg(int *arr, int len);
+int find1(int *arr, int len, int a); // 0  -1
+int find1(int *arr, int len, int a); // 0 or n 
+int rev(int *err,int len);
